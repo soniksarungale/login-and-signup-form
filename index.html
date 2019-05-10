@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login & Sign up</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="body">
+        <div class="layer">
+            <div class="form">
+                <div class="login-form">
+                    <div class="heading">Login to your <b>Account</b></div>
+                    <div class="input-box">
+                        <form action="" method="post">
+                            <input type="text" class="input" placeholder="Your Email address..." required>
+                            <input type="password" class="input" placeholder="Your password..." required>
+                            <input type="submit" class="submit" value="login">
+                        </form>
+                    </div>
+                    <br>
+                    Don't have account? <button type="button" id="showCreateBtn" class="togglebtn" onclick="show_create()">Create Account</button> Now. 
+                </div>
+                <div class="signup-form">
+                    <div class="heading">Create your <b>Account</b></div>
+                    <div class="input-box">
+                        <form action="" method="post">
+                            <input type="text" class="input" placeholder="New Email address..." required>
+                            <input type="password" class="input" placeholder="New password..." required>
+                            <input type="password" class="input" placeholder="Repeat New password..." required>
+                            <input type="submit" class="submit" value="Create account">
+                        </form>
+                    </div>
+                    <br>
+                    Already an member ? <button type="button" id="showCreateBtn" class="togglebtn" onclick="show_login()">Login</button> Now.
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
